@@ -1,0 +1,35 @@
+mod additional_details;
+pub use self::additional_details::AdditionalDetails;
+mod address;
+pub use self::address::Address;
+mod charge_details;
+pub use self::charge_details::ChargeDetails;
+mod decimal;
+pub use self::decimal::Decimal;
+mod error;
+pub use self::error::Error;
+mod error_list;
+pub use self::error_list::ErrorList;
+mod invoice_detail;
+pub use self::invoice_detail::InvoiceDetail;
+mod invoice_item;
+pub use self::invoice_item::InvoiceItem;
+mod item_quantity;
+pub use self::item_quantity::ItemQuantity;
+mod money;
+pub use self::money::Money;
+mod party_identification;
+pub use self::party_identification::PartyIdentification;
+mod submit_invoice_request;
+pub use self::submit_invoice_request::SubmitInvoiceRequest;
+mod submit_invoice_response;
+pub use self::submit_invoice_response::SubmitInvoiceResponse;
+mod tax_detail;
+pub use self::tax_detail::TaxDetail;
+mod tax_registration_detail;
+pub use self::tax_registration_detail::TaxRegistrationDetail;
+mod transaction_reference;
+pub use self::transaction_reference::TransactionReference;
+
+// TODO(farcaller): sort out files
+pub struct File;

@@ -1,0 +1,12 @@
+# AdditionalDetails
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_type** | **String** | The type of the additional information provided by the selling party. | [default to null]
+**detail** | **String** | The detail of the additional information provided by the selling party. | [default to null]
+**language_code** | **String** | The language code of the additional information detail. | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
